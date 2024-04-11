@@ -121,7 +121,7 @@ div.recchild {
 
     @media screen and (orientation: portrait) {
         img.banner {
-            width:auto; 
+            width:100%; 
             margin-left:auto; 
             margin-right:auto; 
             display:block;
