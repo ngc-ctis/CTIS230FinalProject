@@ -25,6 +25,13 @@ div.recommendations {
      
 }
 
+img.banner {
+    width:50%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+}
+
 #quiz-container {
     margin: auto;
     width: 50%;
@@ -110,18 +117,26 @@ div.recchild {
         text-align: left;
          
     }
-    
     }
 
     @media screen and (orientation: portrait) {
+        img.banner {
+            width:auto; 
+            margin-left:auto; 
+            margin-right:auto; 
+            display:block;
+        }
+        }
+
+    @media screen and (orientation: portrait) {
        #secoreco{
-        font-size: 25px;
+        font-size: 45px;
        }
         }
 
         @media screen and (orientation: portrait) {
             #h2quiz{
-             font-size: 15px;
+             font-size: 25px;
             }
              }
 
