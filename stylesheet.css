@@ -10,6 +10,13 @@ div {
         padding: 20px;
     }
 
+    @media screen and (orientation: portrait) {
+        body {
+        margin: 25px 25px;
+        }
+        }
+        
+
 div.recommendations {
     display: flex;
     background-color:transparent;
