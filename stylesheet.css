@@ -115,9 +115,15 @@ div.recchild {
 
     @media screen and (orientation: portrait) {
        #secoreco{
-        font-size: 45px;
+        font-size: 35px;
        }
         }
+
+        @media screen and (orientation: portrait) {
+            #h2quiz{
+             font-size: 20px;
+            }
+             }
 
 
     @media screen and (orientation: portrait) {
