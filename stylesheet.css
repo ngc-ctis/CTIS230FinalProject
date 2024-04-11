@@ -10,13 +10,7 @@ div {
         padding: 20px;
     }
 
-    @media screen and (orientation: portrait) {
-        body {
-        margin: 25px 25px;
-        }
-        }
-        
-
+ 
 div.recommendations {
     display: flex;
     background-color:transparent;
@@ -83,3 +77,57 @@ a {
     color:pink;
     text-align: center;
 }
+
+img.josei {
+    width: 40%;
+}
+
+div.recchild {
+    margin-right:10px; 
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+@media screen and (orientation: portrait) {
+    img.recimage {
+        width: 50%
+    }
+    }
+
+@media screen and (orientation: portrait) {
+    div.recommendations {
+        display: flex;
+        background-color:transparent;
+        outline: disabled;
+        margin: 0;
+        text-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 5px;
+        flex-direction: column;
+        flex: 1;
+        flex-basis: 1;
+        text-align: left;
+         
+    }
+    
+    }
+
+    @media screen and (orientation: portrait) {
+       #secoreco{
+        font-size: 45px;
+       }
+        }
+
+
+    @media screen and (orientation: portrait) {
+        body {
+        margin: 25px 25px;
+        }
+        }
+
+ @media screen and (orientation: portrait) {
+    img.josei {
+       width: 100%;
+        }
+        }
