@@ -134,7 +134,7 @@ div.recchild {
        }
         }
 
-        @media screen and (orientation: portrait) {
+     @media screen and (orientation: portrait) {
             #h2quiz{
              font-size: 25px;
             }
